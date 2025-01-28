@@ -16,6 +16,7 @@
     --dark-green: #3b5a4a;
     --light-blue: #7798b8;
     --dark-blue: #376699;
+    --light-grey: #bcbcbc;
 }
 
 /* General */
@@ -59,6 +60,7 @@ h2 {
 
 .container-fluid {
     display: grid;
+    padding: 0px;
     grid-template-rows: repeat(6, minmax(100vh, auto));  /* Each section will take 100% of the viewport height */
     grid-template-columns: 1fr;
     margin-left: var(--nav-width);  /* Shift content to the right to avoid overlap with fixed navbar */
@@ -161,7 +163,7 @@ h2 {
 /* Sections */
 
 section {
-    padding: 30px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -207,4 +209,22 @@ section {
 .accordion-button:not(.collapsed) {
     background-color: var(--light-green); /* Change to your preferred color */
     color: white; /* Optional: Adjust text color */
-  }
+}
+
+footer {
+    background: #aac8ba36;
+    text-align: center;
+    height: 4em;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0;
+}
