@@ -14,9 +14,8 @@
     --nav-width: 200px;
     --light-green: #7bb399;
     --dark-green: #3b5a4a;
-    --light-blue: #7798b8;
-    --dark-blue: #376699;
-    --light-grey: #bcbcbc;
+    --light-orange: #ecb976;
+    --dark-orange: #8f5a34;
 }
 
 /* General */
@@ -160,6 +159,15 @@ h2 {
     color: var(--nav-active-text-color);
 }
 
+.bullet {
+    color: var(--light-green);
+}
+
+
+.row h3 strong {
+    font-weight: 600;
+}
+
 /* Sections */
 
 section {
@@ -180,13 +188,13 @@ section {
 }
 
 .experience li a {
-    color: var(--light-blue);
+    color: var(--light-orange);
     text-decoration: none;
     transition: color 0.4s ease;
 }
 
 .experience li a:hover {
-    color: var(--dark-blue);
+    color: var(--dark-green);
 }
 
 .row h3 {
