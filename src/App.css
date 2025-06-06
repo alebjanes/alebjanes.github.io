@@ -1,0 +1,54 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-family: Unbounded;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+h4 {
+  font-family: Unbounded;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+
+h5 {
+  font-family: Unbounded;
+  margin-top: 0;
+  color: #7845b9;
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+li {
+  font-size: 0.8rem;
+}
+
+a {
+  color: #455cb9;
+  text-decoration: none;
+
+}
+
+footer {
+  background-color: #455cb9;
+  width: 100%;
+  color: white;
+  font-family: Unbounded;
+  font-size: 0.7rem;
+  margin-top: 3rem;
+}
+
+p {
+  font-size: 0.8rem;
+  text-align: center;
+}
